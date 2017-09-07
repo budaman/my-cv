@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Fresca|Raleway|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+#root {
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Rubik', sans-serif;
+}
+
+
+.App {
+  
+}
+
+.intro-cont {
+  cursor: url(cursor.png), pointer;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.light-pic {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    filter: blur(50px);
+    transform: scale(1.1);
+    transition: 4s ease-in-out transform;
+}
+
+.light-pic-animation {
+  filter: blur(0px);
+  transform: scale(1);
+}
+
+.quote-text {
+  position: absolute;
+  z-index: 5;
+  bottom: -100vh;
+  left: 10vw;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+  transition: 4s ease-in-out all;
+}
+
+.title-animation {
+  bottom: 10vh;
+  left: 10vw;
+}
+
+.author {
+  font-size: 0.9rem;
+}
